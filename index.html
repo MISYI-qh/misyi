@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Misyi, perusahaan di balik Hulhup dan Phipop</title>
+<meta name="description" content="Misyi adalah perusahaan teknologi dari Indonesia yang didirikan Faqih Musyaffa. Produk kami: Hulhup dan Phipop.">
+<meta name="theme-color" content="#07070a">
+<link rel="icon" type="image/png" href="assets/misyi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-diamond" viewBox="0 0 24 24"><path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="currentColor"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><path d="M3 12v0M7 8v8M11 4v16M15 8v8M19 10v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3c.6 4.6 3.4 7.4 9 9-5.6 1.6-8.4 4.4-9 9-.6-4.6-3.4-7.4-9-9 5.6-1.6 8.4-4.4 9-9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div id="loader"><img src="assets/misyi.png" alt="" width="84" height="84"><i></i></div>
+<canvas id="dust"></canvas>
+<div class="light"></div>
+<div class="bar" id="bar"></div>
+<div class="cur" id="cur"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="brand" aria-label="Misyi"><img src="assets/misyi.png" alt="" width="30" height="30"><span>Misyi</span></a>
+  <nav aria-label="Utama">
+    <a href="#tentang">Tentang</a>
+    <a href="#produk">Produk</a>
+    <a href="#perjalanan">Perjalanan</a>
+    <a href="#pendiri">Pendiri</a>
+  </nav>
+  <a href="https://hulhup.my.id" target="_blank" rel="noopener" class="btn mag"><span>Buka Hulhup</span><svg><use href="#i-arrow"/></svg></a>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="mono kicker rv"><svg><use href="#i-diamond"/></svg> Perusahaan teknologi dari Indonesia</p>
+      <h1 class="display">
+        <span class="ln"><span>Misyi membuat</span></span>
+        <span class="ln"><span><i class="serif">Hulhup</i> dan Phipop.</span></span>
+      </h1>
+      <p class="lead rv d2">Misyi didirikan oleh Faqih Musyaffa pada 20 Oktober 2026. Kami membuat produk yang sederhana, rapi, dan dikerjakan sampai ke detail terkecil.</p>
+      <div class="row rv d3">
+        <a href="#produk" class="btn btn-solid mag"><span>Lihat produk</span><svg><use href="#i-down"/></svg></a>
+        <a href="#tentang" class="btn btn-line mag"><span>Tentang Misyi</span></a>
+      </div>
+    </div>
+
+    <div class="hero-mark rv d2">
+      <div class="par" data-p="-0.10">
+        <div class="mk-in" id="mark">
+          <div class="halo"></div>
+          <svg class="orbit tilted" viewBox="0 0 400 400" aria-hidden="true">
+            <ellipse cx="200" cy="200" rx="196" ry="196" class="o1"/>
+            <g class="spin"><circle cx="200" cy="4" r="6"/></g>
+          </svg>
+          <svg class="orbit" viewBox="0 0 400 400" aria-hidden="true">
+            <circle cx="200" cy="200" r="150" class="o2"/>
+            <circle cx="200" cy="200" r="104" class="o3"/>
+            <g class="spin rev"><circle cx="200" cy="50" r="4"/></g>
+          </svg>
+          <img src="assets/misyi.png" alt="Logo Misyi" width="512" height="512">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>Misyi</span><svg><use href="#i-diamond"/></svg><span class="out">Hulhup</span><svg><use href="#i-diamond"/></svg><span>Phipop</span><svg><use href="#i-diamond"/></svg>
+      <span>Misyi</span><svg><use href="#i-diamond"/></svg><span class="out">Hulhup</span><svg><use href="#i-diamond"/></svg><span>Phipop</span><svg><use href="#i-diamond"/></svg>
+      <span>Misyi</span><svg><use href="#i-diamond"/></svg><span class="out">Hulhup</span><svg><use href="#i-diamond"/></svg><span>Phipop</span><svg><use href="#i-diamond"/></svg>
+      <span>Misyi</span><svg><use href="#i-diamond"/></svg><span class="out">Hulhup</span><svg><use href="#i-diamond"/></svg><span>Phipop</span><svg><use href="#i-diamond"/></svg>
+    </div>
+  </div>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="sec wrap two">
+    <div class="side">
+      <p class="mono kicker rv"><span>01</span> Tentang</p>
+      <h2 class="display h2">
+        <span class="ln"><span>Satu perusahaan,</span></span>
+        <span class="ln"><span>dua produk.</span></span>
+      </h2>
+    </div>
+    <div class="main">
+      <p class="big rv">Misyi adalah perusahaan induk. Dari sinilah Hulhup, sosial media berbasis suara, dan Phipop, AI berbahasa Indonesia, dibuat dan dirawat.</p>
+      <dl class="facts">
+        <div class="rv"><dt class="mono">Didirikan</dt><dd>20 Oktober 2026</dd></div>
+        <div class="rv"><dt class="mono">Pendiri</dt><dd>Faqih Musyaffa</dd></div>
+        <div class="rv"><dt class="mono">Asal</dt><dd>Indonesia</dd></div>
+        <div class="rv"><dt class="mono">Produk</dt><dd>Hulhup dan Phipop</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- PRODUK -->
+  <section id="produk" class="sec">
+    <div class="wrap head">
+      <p class="mono kicker rv"><span>02</span> Produk</p>
+      <h2 class="display h2">
+        <span class="ln"><span>Apa yang kami <i class="serif">buat</i>.</span></span>
+      </h2>
+    </div>
+
+    <div class="stack">
+      <article class="panel hul" id="hul">
+        <div class="spot"></div>
+        <div class="wrap panel-in">
+          <div class="p-copy">
+            <p class="mono num">Produk satu</p>
+            <h3 class="display">Hulhup</h3>
+            <p class="p-lead">Sosial media berbasis suara. Ketuk satu tombol, dengarkan suara acak dari pengguna lain, lalu rekam dan bagikan suaramu sendiri. Kamu yang mengatur siapa boleh mendengar.</p>
+            <dl class="meta">
+              <div><dt class="mono">Lahir</dt><dd>1 Oktober 2026</dd></div>
+              <div><dt class="mono">Status</dt><dd>Sudah bisa dibuka</dd></div>
+              <div><dt class="mono">Alamat</dt><dd>hulhup.my.id</dd></div>
+            </dl>
+            <div class="row">
+              <a href="https://hulhup.my.id" target="_blank" rel="noopener" class="btn btn-solid mag"><span>Buka Hulhup</span><svg><use href="#i-arrow"/></svg></a>
+            </div>
+            <ul class="pages">
+              <li><a href="https://hulhup.my.id/about" target="_blank" rel="noopener">Tentang<svg><use href="#i-arrow"/></svg></a></li>
+              <li><a href="https://hulhup.my.id/policy" target="_blank" rel="noopener">Kebijakan<svg><use href="#i-arrow"/></svg></a></li>
+              <li><a href="https://hulhup.my.id/privacy" target="_blank" rel="noopener">Privasi<svg><use href="#i-arrow"/></svg></a></li>
+              <li><a href="https://hulhup.my.id/llms" target="_blank" rel="noopener">llms<svg><use href="#i-arrow"/></svg></a></li>
+              <li><a href="https://hulhup.my.id/robots" target="_blank" rel="noopener">robots<svg><use href="#i-arrow"/></svg></a></li>
+            </ul>
+          </div>
+          <div class="p-art">
+            <div class="char" id="char" title="Ketuk untuk berkedip">
+              <svg viewBox="0 0 240 146" aria-label="Logo Hulhup" role="img">
+                <defs>
+                  <linearGradient id="gbar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a44e6"/><stop offset="1" stop-color="#3f2cc0"/></linearGradient>
+                  <linearGradient id="geye" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ecebff"/></linearGradient>
+                </defs>
+                <g class="blink"><ellipse cx="72" cy="45" rx="40" ry="40" fill="url(#geye)"/><g class="pg"><circle cx="72" cy="43" r="18" fill="#5b45f5"/></g></g>
+                <g class="blink"><ellipse cx="167" cy="45" rx="40" ry="40" fill="url(#geye)"/><g class="pg"><circle cx="167" cy="43" r="18" fill="#5b45f5"/></g></g>
+                <rect x="5" y="72" width="229" height="67" rx="22" fill="url(#gbar)"/>
+              </svg>
+            </div>
+            <div class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel phi" id="phi">
+        <div class="spot"></div>
+        <div class="wrap panel-in">
+          <div class="p-copy">
+            <p class="mono num">Produk dua</p>
+            <h3 class="display">Phipop</h3>
+            <p class="p-lead">AI berbahasa Indonesia buatan Misyi dengan karakter bicara sendiri. Phipop disiapkan untuk hadir langsung di dalam Hulhup.</p>
+            <dl class="meta">
+              <div><dt class="mono">Lahir</dt><dd>21 November 2026</dd></div>
+              <div><dt class="mono">Status</dt><dd>Segera masuk ke Hulhup</dd></div>
+              <div><dt class="mono">Dibuat oleh</dt><dd>Misyi</dd></div>
+            </dl>
+            <div class="row">
+              <span class="badge"><svg><use href="#i-spark"/></svg>Segera hadir di Hulhup</span>
+            </div>
+          </div>
+          <div class="p-art">
+            <div class="pmark" id="pmark">
+              <i class="ring"></i>
+              <div class="core"><img src="assets/phipop.png" alt="Logo Phipop" width="512" height="512"></div>
+              <span class="bub b1"><i></i><i></i><i></i></span>
+              <span class="bub b2"><i></i><i></i><i></i></span>
+              <svg class="sp s1"><use href="#i-spark"/></svg>
+              <svg class="sp s2"><use href="#i-spark"/></svg>
+              <svg class="sp s3"><use href="#i-spark"/></svg>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PERJALANAN -->
+  <section id="perjalanan" class="sec wrap two">
+    <div class="side">
+      <p class="mono kicker rv"><span>03</span> Perjalanan</p>
+      <h2 class="display h2">
+        <span class="ln"><span>Tiga tanggal</span></span>
+        <span class="ln"><span>di tahun 2026.</span></span>
+      </h2>
+    </div>
+    <div class="main">
+      <ol class="tl" id="tl">
+        <li class="rv"><time class="mono">1 Oktober 2026</time><h3>Hulhup lahir</h3><p>Produk pertama Misyi, sosial media berbasis suara.</p></li>
+        <li class="rv"><time class="mono">20 Oktober 2026</time><h3>Misyi lahir</h3><p>Perusahaan induk berdiri untuk menaungi semua produk.</p></li>
+        <li class="rv"><time class="mono">21 November 2026</time><h3>Phipop lahir</h3><p>AI Phipop hadir dan disiapkan masuk ke dalam Hulhup.</p></li>
+        <span class="rail"><b id="rail"></b></span>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PENDIRI -->
+  <section id="pendiri" class="sec wrap founder">
+    <p class="mono kicker rv"><span>04</span> Pendiri</p>
+    <h2 class="display name">
+      <span class="ln"><span>Faqih</span></span>
+      <span class="ln"><span><i class="serif">Musyaffa</i></span></span>
+    </h2>
+    <p class="lead rv">Pembuat Misyi, Hulhup, dan Phipop.</p>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-top">
+    <div>
+      <p class="mono kicker"><svg><use href="#i-wave"/></svg> Mulai dari sini</p>
+      <a href="https://hulhup.my.id" target="_blank" rel="noopener" class="btn btn-solid mag"><span>Buka hulhup.my.id</span><svg><use href="#i-arrow"/></svg></a>
+    </div>
+    <ul class="flinks">
+      <li><a href="https://hulhup.my.id/about" target="_blank" rel="noopener">Tentang Hulhup</a></li>
+      <li><a href="https://hulhup.my.id/privacy" target="_blank" rel="noopener">Privasi</a></li>
+      <li><a href="https://hulhup.my.id/policy" target="_blank" rel="noopener">Kebijakan</a></li>
+    </ul>
+  </div>
+  <div class="giant" aria-hidden="true"><span>M</span><span>i</span><span>s</span><span>y</span><span>i</span></div>
+  <div class="wrap foot-bot"><span class="mono">Hak cipta 2026 Misyi</span><span class="mono">Didirikan oleh Faqih Musyaffa</span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
