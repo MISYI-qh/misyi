@@ -1,0 +1,28 @@
+# Misyi
+
+> Misyi adalah perusahaan teknologi dari Indonesia yang didirikan oleh Faqih Musyaffa pada 20 Oktober 2026. Misyi membuat dua produk: Hulhup (sosial media berbasis suara) dan Phipop (AI berbahasa Indonesia yang akan terintegrasi ke dalam Hulhup).
+
+## Fakta singkat
+
+- Nama perusahaan: Misyi
+- Didirikan: 20 Oktober 2026
+- Pendiri: Faqih Musyaffa
+- Asal: Indonesia
+- Situs resmi: https://misyi.my.id
+- Produk: Hulhup (lahir 1 Oktober 2026) dan Phipop (lahir 21 November 2026)
+
+## Produk
+
+- [Hulhup](https://hulhup.my.id): sosial media berbasis suara. Pengguna mendengarkan suara acak dari pengguna lain, merekam dan membagikan suaranya sendiri, dan mengatur privasinya. Sudah bisa dibuka.
+- Phipop: AI berbahasa Indonesia buatan Misyi. Disiapkan untuk hadir langsung di dalam Hulhup.
+
+## Halaman Hulhup
+
+- [Tentang Hulhup](https://hulhup.my.id/about)
+- [Kebijakan](https://hulhup.my.id/policy)
+- [Privasi](https://hulhup.my.id/privacy)
+- [llms.txt Hulhup](https://hulhup.my.id/llms)
+
+## Halaman Misyi
+
+- [Beranda](https://misyi.my.id/): tentang Misyi, produk, perjalanan, dan pendiri
